@@ -1,0 +1,48 @@
+#测试栈
+    Stack<int> S;
+    // cout << S.size();
+    // myprint(S[0]);
+    // S.traverse(myprint);
+    S.empty();
+    S.push(5);
+    S.traverse(myprint);
+    cout << endl;
+    S.push(3);
+    S.traverse(myprint);
+    cout << endl;
+    cout << S.pop() << endl;
+    S.traverse(myprint);
+    cout << endl;
+    S.push(7);
+    S.traverse(myprint);
+    cout << endl;
+    S.push(3);
+    S.traverse(myprint);
+    cout << endl;
+
+    cout << S.top() << endl;
+    S.traverse(myprint);
+    cout << endl;
+    cout << S.empty() << endl;
+    S.push(11);
+    S.traverse(myprint);
+    cout << endl;
+    cout << S.size() << endl;
+    S.push(6);
+    S.traverse(myprint);
+    cout << endl;
+    cout << S.empty() << endl;
+    S.push(7);
+    S.traverse(myprint);
+    cout << endl;
+    cout << S.pop() << endl;
+    S.traverse(myprint);
+    cout << endl;
+
+    cout << S.pop() << endl;
+    S.traverse(myprint);
+    cout << endl;
+    cout << S.top() << endl;
+    S.traverse(myprint);
+    cout << endl;
+    cout << S.size() << endl;
